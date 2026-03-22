@@ -221,6 +221,11 @@ main img {
     gap: 15px;
 }
 
+.vertical-line {
+    border-left: 2px solid #BFBFBF;
+    height: 400px;
+}
+
 .copyright {
     height: 80px;
     display: flex;
