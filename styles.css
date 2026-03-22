@@ -178,3 +178,19 @@ h3 {
     padding: 0 30px;
     background-color: lightblue;
 }
+
+#contact .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.socials .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
