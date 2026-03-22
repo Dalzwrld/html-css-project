@@ -154,7 +154,7 @@ main img {
 
 #skills .card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -167,6 +167,9 @@ main img {
 #skills .card img {
     width: 50px;
     height: 50px;
+    border: 2px solid #FFB320;
+    border-radius: 50%;
+    background-color: #FFB320;
 }
 
 #projects {
@@ -219,6 +222,11 @@ main img {
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
 }
 
 .vertical-line {
