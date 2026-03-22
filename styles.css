@@ -128,7 +128,7 @@ h3 {
     background-color: lightcoral;
 }
 
-#skills .cards {
+.cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -163,14 +163,6 @@ h3 {
     height: 600px;
     padding: 0 30px;
     background-color: lightseagreen;
-}
-
-#projects .cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
 
 #projects .project {
