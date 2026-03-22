@@ -244,9 +244,8 @@ main img {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    width: 100%;
+    width: 60%;
     height: 200px;
-    padding: 0 100px;
     background-color: #FDF7F0;
 }
 
@@ -255,7 +254,7 @@ main img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .socials .contact-info {
@@ -266,7 +265,7 @@ main img {
     gap: 20px;
 }
 
-.socials .icon {
+.contact-info .icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
