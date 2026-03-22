@@ -182,18 +182,23 @@ main img {
     align-items: center;
     gap: 20px;
     width: 100%;
-    height: 600px;
+    height: 1000px;
     padding: 0 100px;
     background-color: #FFFFFF;
 }
 
-#projects .project {
+#projects .cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+#projects .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
-    width: 300px;
+    width: 100%;
     height: 400px;
     background-color: #FDE8C2;
     border-radius: 20px;
