@@ -40,6 +40,11 @@ header h2 {
     font-weight: 800;
 }
 
+header h2:hover {
+    color: #C5A028;
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -52,6 +57,10 @@ nav ul li a {
     color: #000000;
     font-size: 1rem;
     display: flex;
+}
+
+nav ul li a:hover {
+    color: #C5A028;
 }
 
 header button {
@@ -92,7 +101,7 @@ main {
 h3 {
     font-size: 1.25rem;
     color: #000000;
-    font-family: cormorant sc, serif;
+    font-family: playfair display, serif;
     font-weight: 700;
 }
 
